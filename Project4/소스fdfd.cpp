@@ -7,5 +7,13 @@ int main() {
 	for (int i = 0; i < 5; i++) {
 		cout << "hi";
 	}
+	while (true) {
+		int i = 0;
+		cout << "hello";
+		i++;
+		if (i == 5) {
+			break;
+		}
+	}
 	return 0;
 }
